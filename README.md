@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Is made by a delighted, lightweight person.
+Ok so this bot was made out of idea of the show i've binge-watched everyday.
+The robot's name is Mech-X4.
+The people who pilot it? Well, there's only one pilot. A technopath.
+The technopath's name is Ryan, he got this robot from a flash-back.
+His crew consists of four people, that's why it is Mech-X4 because it needs four people, Repair, Defense, Attack, and the main Pilot.
+The Repair is none other than the Pilot's brother; Mark Walker.
+Mark thought he would die when he got smashed on the ground by Mech-X4's foot, but then to realize it was only a capsule to the robot.
+The Defense is none other than the whole nerd of the team; Harris. 
+Harris knew nothing about the robot, just like the Pilot and Attack.
+The Attack, well, noone cares about him because he's the clown of them; Spyder.
+Spyder was just riding his bike with Harris and the Pilot, they had no clue there would be a robot under there, more than anything, knew that the Pilot had powers.
+What you've been waiting for this whole time, Who is the Pilot; Ryan Walker.
+Ryan always thought he had bad luck with technology but then one day, he learned if he focused on it, then he can control it with his mind. His powers were passed on by his birth-parents, people who were tested on by Leo Mendel. 
 
-You can use the [editor on GitHub](this is your readme.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](go to your repo then settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The only reason Ryan was put in adoption was so they thought he didnt have powers, so he could have a normal life.
+Turns out, he didnt. One day he found a robot and is now saving the world.
