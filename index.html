@@ -1,89 +1,5 @@
 <body>
       <head>
-            <script>
-                  //Change the images here incase you dont like them... or delete the <script> element.
-grphcs=new Array(6)
-Image0=new Image();
-Image0.src=grphcs[0]="http://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Fall-PNG/Beautiful_Yellow_Autumn_Leaf_Transparent_PNG_Clip_Art_Image.png?m=1470290061";
-Image1=new Image();
-Image1.src=grphcs[1]="http://orig07.deviantart.net/4425/f/2012/278/9/2/autumn_leaf_pixel_icon_by_embalmerjane-d5gwp19.gif"
-Image2=new Image();
-Image2.src=grphcs[2]="http://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Fall-PNG/Beautiful_Yellow_Autumn_Leaf_Transparent_PNG_Clip_Art_Image.png?m=1470290061"
-Image3=new Image();
-Image3.src=grphcs[3]="http://orig07.deviantart.net/4425/f/2012/278/9/2/autumn_leaf_pixel_icon_by_embalmerjane-d5gwp19.gif"
-Image4=new Image();
-Image4.src=grphcs[4]="http://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Fall-PNG/Beautiful_Yellow_Autumn_Leaf_Transparent_PNG_Clip_Art_Image.png?m=1470290061"
-Image5=new Image();
-Image5.src=grphcs[5]="http://orig07.deviantart.net/4425/f/2012/278/9/2/autumn_leaf_pixel_icon_by_embalmerjane-d5gwp19.gif" 
-
-Amount=20; 
-Ypos=new Array();
-Xpos=new Array();
-Speed=new Array();
-Step=new Array();
-Cstep=new Array();
-ns=(document.layers)?1:0;
-ns6=(document.getElementById&&!document.all)?1:0;
-
-if (ns){
-for (i = 0; i < Amount; i++){
-var P=Math.floor(Math.random()*grphcs.length);
-rndPic=grphcs[P];
-document.write("<layer name='sn"+i+"' left=0 top=0><img src="+rndPic+"></layer>");
-}
-}
-else{
-document.write('<div style="position:absolute;top:0px;left:0px;margin:auto;width:500px;"><div style="position:relative">');
-for (i = 0; i < Amount; i++){
-var P=Math.floor(Math.random()*grphcs.length);
-rndPic=grphcs[P];
-document.write('<img id="si'+i+'" src="'+rndPic+'" style="position:absolute;top:0px;left:0px">');
-}
-document.write('</div></div>');
-}
-WinHeight=(ns||ns6)?window.innerHeight:window.document.body.clientHeight;
-WinWidth=(ns||ns6)?window.innerWidth-70:window.document.body.clientWidth;
-for (i=0; i < Amount; i++){                                                                
- Ypos[i] = Math.round(Math.random()*WinHeight);
- Xpos[i] = Math.round(Math.random()*WinWidth);
- Speed[i]= Math.random()*5+3;
- Cstep[i]=0;
- Step[i]=Math.random()*0.1+0.05;
-}
-function fall(){
-var WinHeight=(ns||ns6)?window.innerHeight:window.document.body.clientHeight;
-var WinWidth=(ns||ns6)?window.innerWidth-70:window.document.body.clientWidth;
-var hscrll=(ns||ns6)?window.pageYOffset:document.body.scrollTop;
-var wscrll=(ns||ns6)?window.pageXOffset:document.body.scrollLeft;
-for (i=0; i < Amount; i++){
-sy = Speed[i]*Math.sin(90*Math.PI/180);
-sx = Speed[i]*Math.cos(Cstep[i]);
-Ypos[i]+=sy;
-Xpos[i]+=sx; 
-if (Ypos[i] > WinHeight){
-Ypos[i]=-60;
-Xpos[i]=Math.round(Math.random()*WinWidth);
-Speed[i]=Math.random()*5+3;
-}
-if (ns){
-document.layers['sn'+i].left=Xpos[i];
-document.layers['sn'+i].top=Ypos[i]+hscrll;
-}
-else if (ns6){
-document.getElementById("si"+i).style.left=Math.min(WinWidth,Xpos[i]);
-document.getElementById("si"+i).style.top=Ypos[i]+hscrll;
-}
-else{
-eval("document.all.si"+i).style.left=Xpos[i];
-eval("document.all.si"+i).style.top=Ypos[i]+hscrll;
-} 
-Cstep[i]+=Step[i];
-}
-setTimeout('fall()',50);
-}
-
-window.onload=fall
-            </script>
             <style>
             element {
 }
@@ -154,7 +70,7 @@ html {
           <span class="credits middle">Project maintained by <a href="https://github.com/Aetania">Aetania</a></span>
             </div>
 
-        <h2 id="is-made-by-a-delighted-lightweight-person">Is made by a delighted, lightweight person.</h2>
+        <h2 id="bleh">Is made by a delighted, lightweight person.</h2>
 <h3>Ok so this bot was made out of idea of the show i’ve binge-watched everyday.
 The robot’s name is Mech-X4.
 The people who pilot it? Well, there’s only one pilot. A technopath.
