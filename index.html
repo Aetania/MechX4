@@ -1,6 +1,8 @@
 <body>
 
       <head>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+            <script src="https://code.jquery.com/jquery-migrate-3.2.1.min.js"></script>
             <style>
                   element {}
 
@@ -122,6 +124,13 @@
                   <li>Storyline</li>
                   <ul>All of this but in a help command.</ul>
             </div>
+            <script>
+                  $(document).ready(function() {
+                   $(".botinfo").hover(function() {
+                     $(this).fadeOut(slow);
+                   });
+                  });
+</script>
       </head>
 
 </body>
